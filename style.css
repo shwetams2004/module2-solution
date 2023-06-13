@@ -1,1 +1,68 @@
-
+body {
+    margin: 10px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  header {
+    background-color:antiquewhite;
+    padding: 15px;
+    font-size: 25px;
+    text-align: center;
+    color: crimson;
+  }
+  
+  #p1{
+    background-color: crimson;
+    text-align: center;
+    position: relative;
+    width: 200px;
+    height: 50px;
+    top: -55px;
+    right: -272px;
+}
+ #p2{
+    background-color: rgb(231, 222, 103);
+    text-align: center;
+    position: relative;
+   
+    width: 200px;
+    height: 50px;
+    top: -55px;
+    right: -272px;
+}
+#p3{
+    background-color: deeppink;  
+    text-align: center;
+    position: relative;
+  
+    width: 200px;
+    height: 50px;
+    top: -55px;
+    right: -272px;
+}
+  
+  section {
+    flex: 1;
+    padding: 30px;
+    border: 10px solid antiquewhite;
+  }
+  .container {
+    display: flex;
+    background-color: darkcyan;
+    text-align: left;
+    height: 300px;
+    font-size: 20px;
+  }
+  
+  @media (max-width: 767px) {
+    .container {
+      flex-wrap: wrap;
+    }
+    
+    section {
+        font-size: 20px;
+      flex-basis: 100%;
+      margin-bottom: 50px;
+    }
+  }
