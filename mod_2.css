@@ -1,13 +1,13 @@
 * {
   box-sizing: border-box;
-  font-family: Comic Sans MS;
-  font-weight: lighter;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: normal;
 }
 
 
 h1 {
   text-align: center;
-  font-size: 1.75em;
+  font-size: 1.8em;
 }
 
 h2 {
@@ -36,16 +36,16 @@ p {
 }
 
 .chicken {
-  background-color:pink;
+  background-color:plum;
 }
 
 .beef {
   color: white;
-  background-color: red;
+  background-color:brown;
 }
 
 .sushi {
-  background-color: yellow;
+  background-color:darkseagreen;
 }
 
 
